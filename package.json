@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "private": true,
+  "homepage": "https://ma12-co.github.io/bar-chart/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server",
-    "build": "webpack"
+    "build": "webpack",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +21,7 @@
     "babel-loader": "^8.0.5",
     "babel-preset-env": "^1.7.0",
     "css-loader": "^2.1.1",
+    "gh-pages": "^2.0.1",
     "style-loader": "^0.23.1",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0",
